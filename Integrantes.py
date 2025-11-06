@@ -1,6 +1,6 @@
-//Sala 1
+#Sala 1
 
-Integrantes = [
+integrantes = [
 "Victor Samuel Ararat Castro",
 "Alex Vinicio Albán Cedeño",
 "JEFFERSON JAIME FARIAS HERNANDEZ",
@@ -15,6 +15,7 @@ Integrantes = [
 ""
 ]
 
+#mostrar la lista ordenada por consola
 def mostrar_integrantes(integrantes):
     integrantes_ordenados = sorted(integrantes)
     for nombre in integrantes_ordenados:
