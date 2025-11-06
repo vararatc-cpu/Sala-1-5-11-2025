@@ -1,6 +1,6 @@
 //Sala 1
 
-Integrantes [
+Integrantes = [
 "Victor Samuel Ararat Castro",
 "Alex Vinicio Albán Cedeño",
 "JEFFERSON JAIME FARIAS HERNANDEZ",
@@ -10,5 +10,14 @@ Integrantes [
 "MIRELLA ANTONIA CRISTOBA MEDINA",
 "MARK ANTHONY SANCHEZ GOMEZ",
 "OSCAR ADRIAN JIMENEZ COX",
+"CARLOS DARIO FUENTES ORTEGA",
+"SILVIA PAOLA BARRETO MORA",
 ""
 ]
+
+def mostrar_integrantes(integrantes):
+    integrantes_ordenados = sorted(integrantes)
+    for nombre in integrantes_ordenados:
+        print(nombre)
+
+mostrar_integrantes(integrantes)
